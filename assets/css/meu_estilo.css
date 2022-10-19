@@ -55,3 +55,25 @@ p{
     margin-top: 50px;
 }
 
+u{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.imagem{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.comando{
+    padding: 5px;
+    font-size: 1.25rem;
+    border: 3px solid #9920a3;
+    background-color: #c9c8c8;
+    color: #484848;
+    text-align: center;
+}
