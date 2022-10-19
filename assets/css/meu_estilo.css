@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-padding-top: 50px;
 }
 
 nav {
     height: 50px;
-    background-color: rgb(126, 126, 126);
-    color: rgb(200, 200, 200);
+    background-color: #484848;
+    color: #c8c8c8;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -27,7 +28,7 @@ a {
 }
 
 a:hover {
-    color: rgb(202, 110, 255);
+    color: #8961b5;
 }
 
 section{
@@ -40,9 +41,17 @@ section{
 
 .comando-git{
     padding: 5px;
-    font-size: 2rem;
+    font-size: 1.25rem;
     border: 3px solid #9920a3;
     background-color: #c9c8c8;
     color: #484848;
+}
+
+p{
+    padding: 5px;
+}
+
+.conteudo{
+    margin-top: 50px;
 }
 
