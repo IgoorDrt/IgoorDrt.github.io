@@ -102,3 +102,26 @@ u{
     border-radius: 100px;
     padding: 2px 5px;
 }
+
+#redes_sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.redes{
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 5px;
+    margin: 5px;
+}
+
+.redes>img{
+    width: 100%;
+    height: 83%;
+}
+
+.redes a:hover{
+    color: aliceblue;
+}
